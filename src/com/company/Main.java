@@ -41,14 +41,42 @@ public class Main {
 //        System.out.println(newString2 + " " + newString3);
 //
 //
-//        String name1 = "Rossita";
-//        String name2 = "Suzan";
+        String name1 = "Rossssssssita";
+        String name2 = "Suzan";
+        String number = "" + 5;
 //        System.out.println("Hello dear " + name1 +  ". We are happy that you are here");
 //        System.out.println("Hello dear " + name2 +  ". We are happy that you are here");
-        System.out.println(newInt1 + 2); // 10 + 2 = 12
-        System.out.println("" + newInt1 + 2); // "10" + "2"
-        System.out.println(newInt1 + " + " + 2); // "10" + "! " + "2"
+//        System.out.println(newInt1 + 2); // 10 + 2 = 12
+//        System.out.println("" + newInt1 + 2); // "10" + "2"
+//        System.out.println(newInt1 + " + " + 2); // "10" + "! " + "2"
 
+//        int x = 4, y = 5;
+//        String z = "" + x + y;
+//        System.out.println(x + y);
+//        System.out.println("" + x + y);
+//        System.out.println(x + " + " + y);
+//
+//        System.out.println(name1 + "\n" +  name2);
+
+        int intRegular = 1;
+        int[] intArray = {1,2,3,4,5,6,7,8};
+
+        double doubleRegular = 1.3;
+        double[] doubleArray = {1.3,6.7,9.3};
+
+        boolean booleanRegular = true;
+        boolean[] booleanArray = {true,false};
+
+        char charRegular = 'a';
+        char[] charArray = {'a','b','c'};
+
+        String stringRegular = "abc";
+//                     index      0     1     2
+        String[] stringArray = {"abc","def","ghi"};
+
+        System.out.println(stringArray[0]);
+        System.out.println(stringArray[1]);
+        System.out.println(stringArray[2]);
 
 
 
