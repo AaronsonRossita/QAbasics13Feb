@@ -34,13 +34,10 @@ public class Main {
         int result1 = 1 + 2, result2 = 1 - 2, result3 = 1 * 2, result4 = 1 / 2;
         int result5 = newInt1 + 2, result6 = newInt2 + newInt3;
 
-        String newString6 = "Hi " + "How " + "Are " + "You ";
+        String newString6 = "Hi " + "How " + "Are " + "You";
+        String newString7 = newString6 + " ?";
+        String newString8 = newString6 + newString7;
 
-//        System.out.println(newString6);
-//        System.out.println("Hi " + "How " + "Are " + "You");
-//        System.out.println(newString2 + " " + newString3);
-//
-//
         String name1 = "Rossssssssita";
         String name2 = "Suzan";
         String number = "" + 5;
@@ -49,14 +46,21 @@ public class Main {
 //        System.out.println(newInt1 + 2); // 10 + 2 = 12
 //        System.out.println("" + newInt1 + 2); // "10" + "2"
 //        System.out.println(newInt1 + " + " + 2); // "10" + "! " + "2"
-
-//        int x = 4, y = 5;
-//        String z = "" + x + y;
+//
+//        int x = 4, y = 9, z = 0;
 //        System.out.println(x + y);
 //        System.out.println("" + x + y);
+//        System.out.println("x + y = " + x + y);
+//        System.out.println("x + y = " + (x + y));
 //        System.out.println(x + " + " + y);
+//        System.out.println(x + y + " mahrozet");
+//        System.out.println(x + y + " + " + z);
+//        System.out.println("" + x * y);
 //
-//        System.out.println(name1 + "\n" +  name2);
+//        System.out.println("Rossita \nAaronson ");
+//        System.out.println(" \\ ");
+//        System.out.println(" \" ");
+//        System.out.println(" \' ");
 
         int intRegular = 1;
         int[] intArray = {1,2,3,4,5,6,7,8};
@@ -77,6 +81,10 @@ public class Main {
         System.out.println(stringArray[0]);
         System.out.println(stringArray[1]);
         System.out.println(stringArray[2]);
+        System.out.println(stringArray.length);
+
+
+
 
 
 
