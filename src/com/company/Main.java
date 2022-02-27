@@ -6,6 +6,7 @@ public class Main {
 //          sout
 //        System.out.println("Rossita");
 
+
         int newInt1;
         newInt1 = 10;
 
@@ -64,6 +65,26 @@ public class Main {
 
         int intRegular = 1;
         int[] intArray = {1,2,3,4,5,6,7,8};
+//                                index       0    1    2    3    4
+        int[] intArrayEmpty = new int[4]; //{ 0,   0  , 0 ,  0 }
+
+//        System.out.println(intArrayEmpty[0]);
+//        System.out.println(intArrayEmpty[1]);
+//        System.out.println(intArrayEmpty[2]);
+//        System.out.println(intArrayEmpty[3]);
+////        System.out.println(intArrayEmpty[4]);   out of bounds
+//        System.out.println("----------------");
+
+        intArrayEmpty[0] = 23;
+        intArrayEmpty[1] = intRegular;
+        intArrayEmpty[2] = 3 + 4;
+        intArrayEmpty[3] = intArrayEmpty[0] + intArrayEmpty[2];
+
+//        System.out.println("After numbers");
+//        System.out.println(intArrayEmpty[0]);
+//        System.out.println(intArrayEmpty[1]);
+//        System.out.println(intArrayEmpty[2]);
+//        System.out.println(intArrayEmpty[3]);
 
         double doubleRegular = 1.3;
         double[] doubleArray = {1.3,6.7,9.3};
@@ -78,10 +99,30 @@ public class Main {
 //                     index      0     1     2
         String[] stringArray = {"abc","def","ghi"};
 
-        System.out.println(stringArray[0]);
-        System.out.println(stringArray[1]);
-        System.out.println(stringArray[2]);
-        System.out.println(stringArray.length);
+//        System.out.println(stringArray[0]);
+//        System.out.println(stringArray[1]);
+//        System.out.println(stringArray[2]);
+//        System.out.println(stringArray.length);
+
+
+        for (int i = 0; i < 15; i++) {
+            // i < 3
+            System.out.println(i);// 0 1 2
+            // i++
+        }
+
+        for (int i = 0; i < intArrayEmpty.length; i++) { // i++ same as i = i + 1
+            System.out.println("i = " + i);
+            System.out.println(intArrayEmpty[i]);
+        }
+
+        for (int i = 0; i < stringArray.length; i++) {
+            System.out.println(stringArray[i]);
+        }
+
+
+
+
 
 
 
