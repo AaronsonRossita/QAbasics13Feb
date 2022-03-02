@@ -1,11 +1,17 @@
 package com.company;
 
+
+import java.util.Random;
+import java.util.Scanner;
+
 public class Main {
 //          psvm
     public static void main(String[] args) {
 //          sout
 //        System.out.println("Rossita");
 
+        Scanner scanner = new Scanner(System.in);
+        Random random = new Random();
 
         int newInt1;
         newInt1 = 10;
@@ -47,8 +53,8 @@ public class Main {
 //        System.out.println(newInt1 + 2); // 10 + 2 = 12
 //        System.out.println("" + newInt1 + 2); // "10" + "2"
 //        System.out.println(newInt1 + " + " + 2); // "10" + "! " + "2"
-//
-//        int x = 4, y = 9, z = 0;
+
+        int x = 4, y = 9, z = 0;
 //        System.out.println(x + y);
 //        System.out.println("" + x + y);
 //        System.out.println("x + y = " + x + y);
@@ -103,22 +109,84 @@ public class Main {
 //        System.out.println(stringArray[1]);
 //        System.out.println(stringArray[2]);
 //        System.out.println(stringArray.length);
+//
+//        for (int i = 0; i < stringArray.length; i++) {
+//            System.out.print(stringArray[i] + ", ");
+//        }
+//        System.out.println();
+//
+//        for (int i = 0; i < stringArray.length; i++) {
+//            System.out.println(stringArray[i] + ", ");
+//        }
+//
+//        for (int i = 0; i < 15; i++) {
+//            // i < 15
+//            System.out.println("i = " + i);// 0 1 2 3 4 ....
+//            // i++
+//        }
+//
+//        for (int i = 0; i < intArrayEmpty.length; i++) { // i++ same as i = i + 1
+//            System.out.println("i = " + i);
+//            System.out.println(intArrayEmpty[i]);
+//        }
+//
+//        for (int i = 0; i < stringArray.length; i++) {
+//            System.out.println(stringArray[i]);
+//        }
+//
+//        for (int i = 0; i < 5; i++) {
+//            System.out.println("***");
+//        }
+//
+//        String word = "";
+//
+//        // 1
+//        word = stringArray[0];
+//        System.out.println(word);
+//        // 2
+//        word = stringArray[1];
+//        System.out.println(word);
+//        // 3
+//        word = stringArray[2];
+//        System.out.println(word);
+//
+//        for (String word : stringArray) {
+//            System.out.println(word);
+//        }
+//
+//        for (int n : intArray) {
+//            System.out.println("n = " + n);
+//        }
 
+//        int something = 3;
+//
+//        while (something < 10){
+//            System.out.println("*");
+//            something++;
+//        }
+//
+//        System.out.println("!");
+//
+//        System.out.println("Please write a number");
+//        int h = scanner.nextInt();
+//        System.out.println("The number that i got is = " + h);
 
-        for (int i = 0; i < 15; i++) {
-            // i < 3
-            System.out.println(i);// 0 1 2
-            // i++
+        int a = random.nextInt(20);
+        System.out.println("Please guess the number");
+        int b = scanner.nextInt();
+
+        while (b != a){
+            System.out.println("try again");
+            b = scanner.nextInt();
         }
 
-        for (int i = 0; i < intArrayEmpty.length; i++) { // i++ same as i = i + 1
-            System.out.println("i = " + i);
-            System.out.println(intArrayEmpty[i]);
-        }
+        System.out.println("Hooray you guessed it");
 
-        for (int i = 0; i < stringArray.length; i++) {
-            System.out.println(stringArray[i]);
-        }
+
+
+
+
+
 
 
 
